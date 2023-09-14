@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
 
+                        entries.add(ModItems.JERKY);
+
                     }).build());
     public static void registerItemGroups() {
         FoxyModd.LOGGER.info("Registering Item Groups for " + FoxyModd.MOD_ID);
