@@ -5,5 +5,10 @@
   "block.foxymodd.ruby_block": "Block of Ruby",
   "block.foxymodd.raw_ruby_block": "Block of Raw Ruby",
 
+  "block.foxymodd.ruby_ore": "Ruby Ore",
+  "block.foxymodd.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.foxymodd.nether_ruby_ore": "Nether Ruby Ore",
+  "block.foxymodd.end_stone_ruby_ore": "End Stone Ruby Ore",
+
   "itemgroup.ruby" : "Foxy Group"
 }
