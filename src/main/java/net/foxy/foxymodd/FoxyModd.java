@@ -2,6 +2,7 @@ package net.foxy.foxymodd;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.foxy.foxymodd.block.ModBlocks;
 import net.foxy.foxymodd.item.ModItemGroups;
 import net.foxy.foxymodd.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class FoxyModd implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

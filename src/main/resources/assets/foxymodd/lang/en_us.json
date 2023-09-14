@@ -2,5 +2,8 @@
   "item.foxymodd.ruby": "Ruby",
   "item.foxymodd.raw_ruby": "Raw Ruby",
 
+  "block.foxymodd.ruby_block": "Block of Ruby",
+  "block.foxymodd.raw_ruby_block": "Block of Raw Ruby",
+
   "itemgroup.ruby" : "Foxy Group"
 }
