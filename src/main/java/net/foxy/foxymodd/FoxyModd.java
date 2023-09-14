@@ -2,6 +2,8 @@ package net.foxy.foxymodd;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.foxy.foxymodd.item.ModItemGroups;
+import net.foxy.foxymodd.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +13,7 @@ public class FoxyModd implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
