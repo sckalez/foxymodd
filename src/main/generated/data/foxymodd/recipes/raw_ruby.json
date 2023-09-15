@@ -1,21 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "R": {
-      "item": "foxymodd:ruby"
-    },
-    "S": {
-      "item": "minecraft:stone"
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "foxymodd:raw_ruby_block"
     }
-  },
-  "pattern": [
-    "SSS",
-    "SRS",
-    "SSS"
   ],
   "result": {
+    "count": 9,
     "item": "foxymodd:raw_ruby"
-  },
-  "show_notification": true
+  }
 }

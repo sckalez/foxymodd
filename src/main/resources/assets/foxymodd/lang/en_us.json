@@ -12,5 +12,11 @@
 
   "item.foxymodd.jerky": "Jerky",
 
+  "item.foxymodd.copper_pickaxe": "Copper Pickaxe",
+  "item.foxymodd.copper_axe": "Copper Axe",
+  "item.foxymodd.copper_shovel": "Copper Shovel",
+  "item.foxymodd.copper_sword": "Copper Sword",
+  "item.foxymodd.copper_hoe": "Copper Hoe",
+
   "itemgroup.ruby" : "Foxy Group"
 }

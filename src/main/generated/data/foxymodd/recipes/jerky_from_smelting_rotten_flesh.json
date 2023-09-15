@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "ruby",
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": "foxymodd:jerky"
+}

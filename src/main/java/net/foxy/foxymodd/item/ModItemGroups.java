@@ -31,6 +31,12 @@ public class ModItemGroups {
 
                         entries.add(ModItems.JERKY);
 
+                        entries.add(ModItems.COPPER_PICKAXE);
+                        entries.add(ModItems.COPPER_AXE);
+                        entries.add(ModItems.COPPER_SHOVEL);
+                        entries.add(ModItems.COPPER_SWORD);
+                        entries.add(ModItems.COPPER_HOE);
+
                     }).build());
     public static void registerItemGroups() {
         FoxyModd.LOGGER.info("Registering Item Groups for " + FoxyModd.MOD_ID);
