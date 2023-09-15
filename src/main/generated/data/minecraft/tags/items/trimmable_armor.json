@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "foxymodd:copper_helmet",
+    "foxymodd:copper_chestplate",
+    "foxymodd:copper_leggings",
+    "foxymodd:copper_boots"
+  ]
+}

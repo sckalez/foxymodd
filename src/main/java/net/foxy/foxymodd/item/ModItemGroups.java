@@ -37,6 +37,11 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_SWORD);
                         entries.add(ModItems.COPPER_HOE);
 
+                        entries.add(ModItems.COPPER_HELMET);
+                        entries.add(ModItems.COPPER_CHESTPLATE);
+                        entries.add(ModItems.COPPER_LEGGINGS);
+                        entries.add(ModItems.COPPER_BOOTS);
+
                     }).build());
     public static void registerItemGroups() {
         FoxyModd.LOGGER.info("Registering Item Groups for " + FoxyModd.MOD_ID);

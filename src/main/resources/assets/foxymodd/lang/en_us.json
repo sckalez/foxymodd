@@ -18,5 +18,10 @@
   "item.foxymodd.copper_sword": "Copper Sword",
   "item.foxymodd.copper_hoe": "Copper Hoe",
 
+  "item.foxymodd.copper_helmet": "Copper Helmet",
+  "item.foxymodd.copper_chestplate": "Copper Chestplate",
+  "item.foxymodd.copper_leggings": "Copper Leggings",
+  "item.foxymodd.copper_boots": "Copper Boots",
+
   "itemgroup.ruby" : "Foxy Group"
 }
