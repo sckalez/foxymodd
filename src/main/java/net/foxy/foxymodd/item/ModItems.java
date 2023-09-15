@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.foxy.foxymodd.FoxyModd;
+import net.foxy.foxymodd.item.custom.ModArmorItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -27,7 +28,7 @@ public class ModItems {
             new HoeItem(ModToolMaterial.COPPER, 0, -1.0f, new FabricItemSettings()));
 
     public static final Item COPPER_HELMET = registerItem("copper_helmet",
-            new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
             new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",

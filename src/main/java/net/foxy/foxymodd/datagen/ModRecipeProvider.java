@@ -112,10 +112,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_HELMET, 1)
                 .pattern("CCC")
                 .pattern("C C")
-                //.pattern(" S ")
-                //.input('S', Items.STICK)
                 .input('C', Items.COPPER_INGOT)
-                //.criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_HELMET)));
 
@@ -123,9 +120,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("C C")
                 .pattern("CCC")
                 .pattern("CCC")
-                //.input('S', Items.STICK)
                 .input('C', Items.COPPER_INGOT)
-                //.criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_CHESTPLATE)));
 
@@ -133,19 +128,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("CCC")
                 .pattern("C C")
                 .pattern("C C")
-                //.input('S', Items.STICK)
                 .input('C', Items.COPPER_INGOT)
-                //.criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_LEGGINGS)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_BOOTS, 1)
                 .pattern("C C")
                 .pattern("C C")
-                //.pattern("C C")
-                //.input('S', Items.STICK)
                 .input('C', Items.COPPER_INGOT)
-                //.criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.COPPER_BOOTS)));
 
