@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "foxymodd:raw_ruby_block",
+    "foxymodd:ruby_block",
+    "foxymodd:ruby_ore",
+    "foxymodd:deepslate_ruby_ore",
+    "foxymodd:nether_ruby_ore",
+    "foxymodd:end_stone_ruby_ore"
+  ]
+}
